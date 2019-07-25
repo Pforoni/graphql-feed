@@ -7,7 +7,7 @@ const User = require('./resolvers/User')
 const Link = require('./resolvers/Link')
 const Vote = require('./resolvers/Vote')
 
-// 2 - O resolvers objeto é a implementação real do esquema GraphQL.
+//- O resolvers objeto é a implementação real do esquema GraphQL.
 const resolvers = {
     Query,
     Mutation,
@@ -17,7 +17,7 @@ const resolvers = {
     Vote,
   }
 
-// 3 - esquema e os resolvedores são empacotados e passados ​​para o GraphQLServer que é importado graphql-yoga
+//- esquema e os resolvedores são empacotados e passados ​​para o GraphQLServer que é importado graphql-yoga
 const server = new GraphQLServer({
     typeDefs: './src/schema.graphql',
     resolvers,
