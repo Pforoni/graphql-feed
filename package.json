@@ -1,0 +1,13 @@
+{
+  "name": "hackernews-code",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "referencia-site": "https://www.howtographql.com/graphql-js/1-getting-started/",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "graphql-yoga": "^1.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "prisma-client-lib": "^1.34.3"
+  }
+}
