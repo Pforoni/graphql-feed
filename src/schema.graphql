@@ -1,7 +1,6 @@
 #// 1 - typeDefs constante define seu esquema GraphQL
 #// ponto de exclamação na definição de tipo significa que esse campo nunca poderá ser null.
 
-
 type Query {
   info: String!
   feed(filter: String, skip: Int, first: Int, orderBy: LinkOrderByInput): Feed!
