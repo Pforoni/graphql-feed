@@ -7,6 +7,9 @@ https://blog.graph.cool/graphql-server-basics-demystifying-the-info-argument-in-
 #Começando com Prisma
 https://www.prisma.io/docs/1.34/get-started/01-setting-up-prisma-new-database-JAVASCRIPT-a002/
 
+#start project
+node src/index.js
+
 Adicionando modelo(Vote)
 Tem relações um-para-muitos para o User e o Link.
 prisma/datamodel.prisma
